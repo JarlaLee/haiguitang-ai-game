@@ -85,23 +85,23 @@ Knife4j 接口文档：[快速开始 | Knife4j](https://doc.xiaominfo.com/docs/q
 
 ## Prompt
 
-![](.\assets\prompt.png)
+![](./assets/prompt.png)
 
 
 
 ## 项目效果
 
-![](.\assets\huoshan-api.png)
+![](./assets/huoshan-api.png)
 
 - 创建deepseek 接口。
 
-![](.\assets\game-begin.png)
+![](./assets/game-begin.png)
 
 - 点击开始游戏，AI 提供汤面
 
 
 
-![](.\assets\game-end.png)
+![](./assets/game-end.png)
 
 - 用户输入猜不到，ai给出汤底。
 
