@@ -1,0 +1,41 @@
+# 8080 启动
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+
+# 数据库配置
+spring:
+#  可以指定环境
+#  profiles:
+#    active: local
+  datasource:
+    # 指定数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/chat_db
+    username: root
+    password: gtsi2024.
+
+
+
+# 接口文档，如何识别到项目中已经有的接口
+# 通过包的路径扫描接口文档
+knife4j:
+  enable: true
+  openapi:
+    title: Jiale的接口文档
+    group:
+      default:
+        group-name: 默认分组
+        api-rule: package
+        api-rule-resources:
+          - com.jiale.haigui.controller
+
+
+
+# 接入 AI 大模型 - 设计apikey地最好不要公开。
+ai:
+  apiKey: 5b76d5c8-0adc-4d5f-a259-251cf10e82fe
+  baseUrl: https://ark.cn-beijing.volces.com/api/v3
+#  model: ep-20250321171747-lkwms
