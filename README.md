@@ -39,7 +39,7 @@
 
 在火山引擎创建海龟汤讲师ai app，写好prompt 测试想法。
 
-![](./assets/prompt.png)
+![](./assets/ai-application.png)
 
 
 
